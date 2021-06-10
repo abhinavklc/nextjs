@@ -1,3 +1,15 @@
+# nextjs practice
+
+# Run Application
+
+```bash
+npm i
+```
+
+```bash
+npm run dev
+```
+
 # TypeScript Next.js example
 
 This is a really simple project that shows the usage of Next.js with TypeScript.
