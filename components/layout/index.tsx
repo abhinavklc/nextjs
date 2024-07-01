@@ -14,20 +14,22 @@ const Layout = ({ children }: Props) => {
     <LayoutStyle>
       <header>
         <nav>
-          <Link href="/">
-            <a className={`${pathname === '/' ? 'active' : ''}`}>Home</a>
+          <Link href="/" className={`${pathname === '/' ? 'active' : ''}`}>
+            Home
           </Link>
-          <Link href="/states">
-            <a className={`${pathname === '//states' ? 'active' : ''}`}>States</a>
+          <Link href="/states" className={`${pathname === '//states' ? 'active' : ''}`}>
+            States
           </Link>
-          <Link href="/apiCall">
-            <a className={`${pathname === '/apiCall' ? 'active' : ''}`}>API Calling</a>
+          <Link href="/apiCall" className={`${pathname === '/apiCall' ? 'active' : ''}`}>
+            API Calling
           </Link>
-          <Link href="/swr">
-            <a className={`${pathname === '/swr' ? 'active' : ''}`}>SWR</a>
+          <Link href="/swr" className={`${pathname === '/swr' ? 'active' : ''}`}>
+            SWR
           </Link>
-          <Link href="/useCallback">
-            <a className={`${pathname === '/useCallback' ? 'active' : ''}`}>UseCallback</a>
+          <Link
+            href="/useCallback"
+            className={`${pathname === '/useCallback' ? 'active' : ''}`}>
+            UseCallback
           </Link>
         </nav>
       </header>
